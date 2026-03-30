@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Pretext</title>
+    <meta
+      name="description"
+      content="A curated ecosystem list for Pretext: official resources, live demos, packages, and community projects built on Cheng Lou's text layout engine."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Curated ecosystem directory</p>
+          <h1>Awesome Pretext</h1>
+          <p class="hero-text">
+            A field guide to projects built on
+            <a href="https://github.com/chenglou/pretext" target="_blank" rel="noreferrer">Pretext</a>,
+            Cheng Lou's engine for multiline text measurement and layout without DOM reflow.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/chenglou/pretext" target="_blank" rel="noreferrer">View upstream Pretext</a>
+            <a class="button secondary" href="https://github.com/ShipItAndPray/awesome-pretext" target="_blank" rel="noreferrer">Open this repo</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="stat-grid" id="stat-grid"></div>
+          <p class="panel-note">
+            This list is independent. The official project lives at
+            <a href="https://github.com/chenglou/pretext" target="_blank" rel="noreferrer">chenglou/pretext</a>.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Start here</p>
+            <h2>Official resources</h2>
+          </div>
+          <div class="card-grid compact" id="official-grid"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading split">
+            <div>
+              <p class="section-kicker">Ecosystem packages</p>
+              <h2>Live demos and package repos</h2>
+            </div>
+            <div class="controls">
+              <input id="search-input" type="search" placeholder="Search packages, tags, or use cases" />
+              <div class="filter-row" id="filter-row"></div>
+            </div>
+          </div>
+          <div class="featured-band" id="featured-band"></div>
+          <div class="card-grid" id="package-grid"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Beyond one account</p>
+            <h2>Community projects</h2>
+          </div>
+          <div class="card-grid compact" id="community-grid"></div>
+        </section>
+
+        <section class="section principles">
+          <div class="section-heading">
+            <p class="section-kicker">Curation standard</p>
+            <h2>What makes a strong Pretext project</h2>
+          </div>
+          <div class="principle-grid">
+            <article>
+              <h3>Predict layout before paint</h3>
+              <p>The project should solve a real measurement or wrapping problem without reaching for DOM reflow.</p>
+            </article>
+            <article>
+              <h3>Ship a proof, not just a claim</h3>
+              <p>Live demos matter. A package is more convincing when people can see the behavior immediately.</p>
+            </article>
+            <article>
+              <h3>Use Pretext as the enabling primitive</h3>
+              <p>The best projects explain why Pretext is the reason the interface is possible, faster, or more stable.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
