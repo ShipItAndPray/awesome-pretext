@@ -59,6 +59,8 @@ All demo links below were verified live on March 30, 2026.
 | [`pretext-ssr`](https://github.com/ShipItAndPray/pretext-ssr) | SSR-first font loading and fallback prediction for zero layout shift. | [live](https://shipitandpray.github.io/pretext-ssr/) |
 | [`pretext-typewriter`](https://github.com/ShipItAndPray/pretext-typewriter) | Streaming text animation with stable final-height measurement. | [live](https://shipitandpray.github.io/pretext-typewriter/) |
 | [`pretext-masonry`](https://github.com/ShipItAndPray/pretext-masonry) | Masonry grid layout driven by predicted card heights. | [live](https://shipitandpray.github.io/pretext-masonry/) |
+| [`pretext-overflow-menu`](https://github.com/ShipItAndPray/pretext-overflow-menu) | Nav bar that collapses items into "+N more" dropdown correctly on frame 1. | [live](https://shipitandpray.github.io/pretext-overflow-menu/) |
+| [`pretext-animate`](https://github.com/ShipItAndPray/pretext-animate) | Physics-based text animations with zero layout reflows. 120fps on mid-range devices. | [live](https://shipitandpray.github.io/pretext-animate/) |
 
 ### Chat, Terminal, and Log Interfaces
 
@@ -67,6 +69,7 @@ All demo links below were verified live on March 30, 2026.
 | [`pretext-chat`](https://github.com/ShipItAndPray/pretext-chat) | React chat surfaces for message streaming and virtualized history. | [live](https://shipitandpray.github.io/pretext-chat/) |
 | [`pretext-terminal`](https://github.com/ShipItAndPray/pretext-terminal) | Canvas terminal for large scrollback and ANSI rendering. | [live](https://shipitandpray.github.io/pretext-terminal/) |
 | [`pretext-logviewer`](https://github.com/ShipItAndPray/pretext-logviewer) | Virtualized log viewer for very large ANSI-heavy outputs. | [live](https://shipitandpray.github.io/pretext-logviewer/) |
+| [`pretext-repl`](https://github.com/ShipItAndPray/pretext-repl) | REPL/notebook UI where output cells expand without shifting other cells. | [live](https://shipitandpray.github.io/pretext-repl/) |
 
 ### Editors, Documents, and Reading Systems
 
@@ -81,6 +84,7 @@ All demo links below were verified live on March 30, 2026.
 | [`pretext-epub`](https://github.com/ShipItAndPray/pretext-epub) | EPUB pagination with direct page access. | [live](https://shipitandpray.github.io/pretext-epub/) |
 | [`pretext-slides`](https://github.com/ShipItAndPray/pretext-slides) | Markdown-to-canvas presentation system. | [live](https://shipitandpray.github.io/pretext-slides/) |
 | [`pretext-captions`](https://github.com/ShipItAndPray/pretext-captions) | Subtitle editor and renderer with WCAG-aware layout. | [live](https://shipitandpray.github.io/pretext-captions/) |
+| [`pretext-diff-navigator`](https://github.com/ShipItAndPray/pretext-diff-navigator) | Side-by-side diff viewer with drift-free synchronized scrolling. | [live](https://shipitandpray.github.io/pretext-diff-navigator/) |
 
 ### Graphics, Media, and Canvas Rendering
 
@@ -91,6 +95,12 @@ All demo links below were verified live on March 30, 2026.
 | [`pretext-og`](https://github.com/ShipItAndPray/pretext-og) | Open Graph image generation that fixes wrapping issues in Satori-style flows. | [live](https://shipitandpray.github.io/pretext-og/) |
 | [`pretext-tts-highlight`](https://github.com/ShipItAndPray/pretext-tts-highlight) | Karaoke-style word highlighting synced to audio or TTS. | [live](https://shipitandpray.github.io/pretext-tts-highlight/) |
 | [`pretext-webxr`](https://github.com/ShipItAndPray/pretext-webxr) | 3D and XR-oriented text layout surfaces. | [live](https://shipitandpray.github.io/pretext-webxr/) |
+| [`pretext-sparkline`](https://github.com/ShipItAndPray/pretext-sparkline) | Inline sparklines with collision-free value labels computed before render. | [live](https://shipitandpray.github.io/pretext-sparkline/) |
+| [`pretext-word-cloud`](https://github.com/ShipItAndPray/pretext-word-cloud) | Deterministic word cloud layout. 500x faster than d3-cloud. | [live](https://shipitandpray.github.io/pretext-word-cloud/) |
+| [`pretext-map-labels`](https://github.com/ShipItAndPray/pretext-map-labels) | Collision-free label placement for 2D maps and diagrams. | [live](https://shipitandpray.github.io/pretext-map-labels/) |
+| [`pretext-gantt`](https://github.com/ShipItAndPray/pretext-gantt) | Zero-flicker Gantt chart with labels measured and placed correctly on frame 1. | [live](https://shipitandpray.github.io/pretext-gantt/) |
+| [`pretext-infinite-canvas`](https://github.com/ShipItAndPray/pretext-infinite-canvas) | Figma/Miro-style infinite canvas with correct text wrapping at any zoom level. | [live](https://shipitandpray.github.io/pretext-infinite-canvas/) |
+| [`pretext-code-minimap`](https://github.com/ShipItAndPray/pretext-code-minimap) | VS Code-style code minimap for the browser. Pixel-accurate, Canvas-rendered. | [live](https://shipitandpray.github.io/pretext-code-minimap/) |
 
 ### Tables, Data, and Platform Targets
 
@@ -98,6 +108,16 @@ All demo links below were verified live on March 30, 2026.
 | --- | --- | --- |
 | [`pretext-table`](https://github.com/ShipItAndPray/pretext-table) | Virtualized data table with Pretext-powered column sizing. | [live](https://shipitandpray.github.io/pretext-table/) |
 | [`pretext-rn`](https://github.com/ShipItAndPray/pretext-rn) | React Native bridge for text measurement and list layout. | [live](https://shipitandpray.github.io/pretext-rn/) |
+
+### Testing, DevTools, and CI
+
+| Project | Description | Demo |
+| --- | --- | --- |
+| [`pretext-storybook`](https://github.com/ShipItAndPray/pretext-storybook) | Stress-test UI components with dynamic text. Flags overflow before it ships. | [live](https://shipitandpray.github.io/pretext-storybook/) |
+| [`pretext-devtools`](https://github.com/ShipItAndPray/pretext-devtools) | Overlay Pretext text measurements on any webpage. See predicted vs actual dimensions. | [live](https://shipitandpray.github.io/pretext-devtools/) |
+| [`pretext-a11y`](https://github.com/ShipItAndPray/pretext-a11y) | WCAG text overflow audit in CI. No browser needed. | [live](https://shipitandpray.github.io/pretext-a11y/) |
+| [`pretext-i18n`](https://github.com/ShipItAndPray/pretext-i18n) | Catch i18n text overflow at build time. No browser needed. | [live](https://shipitandpray.github.io/pretext-i18n/) |
+| [`pretext-overflow-monitor`](https://github.com/ShipItAndPray/pretext-overflow-monitor) | Detect text overflow in CI before any browser render. Zero DOM, pure arithmetic. | [live](https://shipitandpray.github.io/pretext-overflow-monitor/) |
 
 ## Selected Community Projects
 
